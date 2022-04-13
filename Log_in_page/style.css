@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+@media (max-width: 900px) { 
+    .container{
+        display: none;
+    }
+
+    .form{
+        height:80vh;
+        width:80%;
+        line-height: 1.5em;
+        padding: 0 10px 0 10px;
+        margin: 0 0 0 30px;
+        align-content: center;
+    }
+    
+    .head{
+        text-align: right;
+        padding: 0;
+        margin: 25px 20px 120px 0;
+    }
+    
+    .head p{
+        font-size: 11px;
+        color:#96A0AC
+    }
+    .head a{
+        text-decoration: none;
+        color: #38369A;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .sign-up{
+        line-height: 2em;
+        text-align:left;
+    }
+    
+    .sign-up :first-child {
+        color: #22262A;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    
+    .sign-up :last-child{
+        color: #96A0AC;
+        line-height: 1.7em;
+        font-size: 10px;
+        margin: 0 0 15px 0;
+    }
+    
+    .firstname p, .lastname p, .email p, .password p{
+        text-align: left;
+        font-size: 8px;
+        font-weight: 600px;
+        margin: 10px 0 5px 0;
+    }
+    
+    .firstname input, .lastname input, .email input, .password input{
+        width: 90%;
+        padding: 12px 0 12px 5px;
+        border: 1px solid #96A0AC;
+        border-radius: 8px;
+        font-size: 10px;
+        color: #3d2626;
+    }
+    
+    .btn button {
+        background-color: #212529;
+        color:#ffffff;
+        text-align: center;
+        font-size: 12px;
+        width: 91%;
+        padding: 15px 0 15px 0;
+        margin: 20px 0 5px 0;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .password-change{
+        margin: 0 10% 3px 0;
+        text-align: right;
+    }
+
+    .password-change a{
+        font-size: 8px;
+    }
+}
+
+@media  (min-width: 901px) {
+    .mother-container{
+        display: flex;
+    }
+
+    .mother-container{
+        align-content: center;
+    }
+
+    
+    .login-img{
+        position: relative;
+        height: 70%;
+        width: 100%;
+    }
+    
+
+    .main-brand{
+        position: absolute;
+        top: 20px;
+        left: 70px;
+    }
+
+    .main-brand img{
+        color:#ffffff;
+        height: 43px;
+        width: 30px;
+    }
+
+    .brand-name{
+        position: absolute;
+        top: 40px;
+        left: 95px;   
+    }
+
+    .brand-name p{
+        color: #ffffff;
+        font-size: 13px;
+    }
+
+    .dots{
+        position: absolute;
+        top: 95px;
+        left: 440px;
+    }
+
+    .dots img{
+        width: 40px;
+        height: 35px;
+    }
+
+    .quote{
+        position: absolute;
+        top: 160px;
+        left: 70px;
+    }
+
+    .quote img{
+        width: 20px;
+        height: 26px;
+    } 
+    .note{
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        text-align:left;
+        line-height: 2em;
+        color:#ffffff;
+        font-size: 12px;
+    }
+
+    .reference{
+        position: absolute;
+        top: 350px;
+        left: 102px;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .greencheck{
+        position:absolute;
+        top: 350px;
+        left: 145px;
+        transform: translate(-50%, -50%);
+    }
+
+    .greencheck img {
+        height: 25px;
+        width: 15px;
+    }
+
+    .angle{
+        position: absolute;
+        top: 380px;
+        left: 500px;
+    }
+
+    .angle img{
+        height: 32px;
+        width: 23px;
+    }
+
+    .login-rightimg{
+        position:absolute;
+        top : 425px;
+        left: 518px;
+    }
+
+    .login-rightimg img{
+        width:200px;
+        height: 250px;
+    }
+
+    .login-leftimg{
+        position: absolute;
+        top: 590px;
+        left: -3px;
+    }
+    
+    .login-leftimg img{
+        width:90px;
+        height: 85px;
+    }
+
+    .form{
+        height:70%;
+        width: 100%;
+        line-height: 1.5em;
+        margin: 0 0 0 30px;
+        align-content: center;
+    }
+
+    .head{
+        text-align: right;
+        padding: 0;
+        margin: 25px 0px 70px 450px;
+    }
+
+    .head p{
+        font-size: 11px;
+        color:#96A0AC
+    }
+
+    .head a{
+        text-decoration: none;
+        color: #38369A;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .sign-in{
+        line-height: 2em;
+    }
+
+    .sign-in :first-child {
+        color: #22262A;
+    font-size: 18px;
+    font-weight: 550;
+    }
+
+    .sign-in :last-child{
+        color: #96A0AC;
+        line-height: 1.2em;
+        font-size: 11px;
+        margin: 0 0 15px 0;
+    }
+
+    .email p, .password p{
+        font-size: 8px;
+        font-weight: 600px;
+        margin: 10px 0 5px 0;
+    }
+
+    .firstname input, .lastname input, .email input, .password input{
+        width: 90%;
+        padding: 12px 0 12px 5px;
+        border: 1px solid #96A0AC;
+        border-radius: 8px;
+        font-size: 10px;
+        color: #3d2626;
+    }
+    
+    .btn button {
+        background-color: #212529;
+        color:#ffffff;
+        text-align: center;
+        font-size: 12px;
+        width: 92%;
+        padding: 15px 0 15px 0;
+        margin: 20px 0 10px 0;
+        border: none;
+        border-radius: 8px;
+    }
+
+    
+    .password-change{
+        margin: 0 9% 3px 0;
+        text-align: right;
+    }
+
+    .password-change a{
+        font-size: 8px;
+    }
+
+}
